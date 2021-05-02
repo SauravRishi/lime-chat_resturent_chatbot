@@ -1,0 +1,57 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: restaurent_booking
+  steps:
+  - intent: restaurent_booking
+  - action: utter_restaurent_time
+  
+
+- story: restaurent_time
+  steps:
+  - intent: restaurent_time
+  - action: utter_restaurent_time
+  - intent: book_day
+  - action: utter_book_day
+
+- story: ok
+  steps: 
+  - intent: ok
+  - action: utter_ok
+  - intent: table_type
+  - action: utter_table_type
+
+- story: not_ok
+  steps:
+  - intent: not_ok
+  - action: utter_not_ok 
+  - intent: deny
+  - action: utter_goodbye
+ 
+    

@@ -1,0 +1,139 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: deny
+  examples: |
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: restaurent_booking
+  examples: |
+    - i want to book a table for lunch
+    - i want to book a table for breakfast
+    - i want to book a table for dinner
+    - i want to book a vip table for party
+- intent: book_day
+  examples: |
+    - i want to book a table on monday
+    - i want to book a table on saturday
+    - i want to book a table on friday
+    - i want to book a table on thursday
+    - i want to book a table on wednesday
+    - i want to book a table on tuesday
+    - i want to book a table on sunday
+
+- intent: restaurent_time
+  examples: |
+    - what time are you open?
+    - what are the timings of your restaurent?
+    - when you open at?
+    - when you open and clos your restaurent?
+    - what time is it open?
+
+- intent: ok
+  examples: |
+    - okay
+    - ok
+    - cool
+    - thank you
+    - ofcourse
+    - yes please book my table
+    - okay book a table for me 
+
+- intent: not_ok
+  examples: |
+    - no i dont want to book a table
+    - no thank you
+    - nope
+    - no
+    - no please can you make a table for 3
+
+- intent: table_type
+  examples: |
+    - i want AC table 
+    - i want Non-AC table 
+    - AC table
+    - Non-AC  
+- intent: AC
+  examples: |
+    - AC
+    - pure AC
+    - semi AC
+- intent: N_AC
+  examples: |
+    - NON AC
+    - pure NON AC
+    - semi NON AC
+    - non ac
+    - non AC
+
